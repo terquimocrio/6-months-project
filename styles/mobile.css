@@ -1,4 +1,11 @@
 @media (max-width: 400px) {
+
+  h3{
+
+    font-size: 32px;
+
+  }
+
   .container {
     display: grid;
     width: 100%;
