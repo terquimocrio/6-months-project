@@ -2,10 +2,18 @@ const buttons = document.querySelectorAll(".btn");
 
 buttons.forEach((el) => {
   el.addEventListener("click", (e) => {
-    el.style.fontSize = "60px";
+
+    console.log("si");
+    el.style.width = "70px";
+    el.style.height = "70px"
+
+    el.style.fontSize = "55px"
 
     setTimeout(() => {
-      el.style.fontSize = "50px";
+      el.style.width = "60px";
+      el.style.height = "60px"
+
+      el.style.fontSize = "45px"
     }, 100);
   });
 });

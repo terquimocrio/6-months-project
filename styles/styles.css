@@ -1,3 +1,7 @@
+body{
+  background: #212121;
+}
+
 h3{
   font-family: 'Tangerine', cursive;
   font-size: 48px;
@@ -17,7 +21,7 @@ h3{
 }
 
 #mybook {
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.644);
   grid-column: 2/3;
 }
 
@@ -78,30 +82,34 @@ h3{
   height: 100%;
 }
 
-#back {
-  width: 100px;
-  height: 100px;
+.btn{
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.24);
+  width: 60px;
+  height: 60px;
   text-align: center;
-  display: inline;
-  font-size: 50px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  font-size: 45px;
+
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.644);;
+
+  cursor: pointer;
+}
+
+#back {
   grid-column: 1/2;
   grid-row: 1/2;
-  cursor: pointer;
 }
 
 #next {
-  width: 100px;
-  height: 100px;
-  text-align: center;
-  display: inline;
-  font-size: 50px;
   grid-column: 3/4;
   grid-row: 1/2;
-  cursor: pointer;
 }
 
 i {
-  margin-top: 25%;
+  /*margin-top: 25%;*/
   /* standard gradient background */
   background: linear-gradient(#6e7ee4, #ea6cbc);
 
