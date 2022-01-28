@@ -24,23 +24,28 @@
 
 
   #back {
-
-    grid-column: 1;
+    
+    grid-column: 1/2;
     grid-row: 2/3;
   }
 
   #next {
-    grid-column: 3;
+    
+    grid-column: 3/4;
     grid-row: 2/3;
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 
   h3{
 
     font-size: 32px;
 
+  }
+
+  h2{
+    font-size: 60px;
   }
   
   #mybook {

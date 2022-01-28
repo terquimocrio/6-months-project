@@ -9,6 +9,22 @@ h3{
   color: #6e7ee4;
 }
 
+h2{
+  font-family: 'Tangerine', cursive;
+  font-size: 80px;
+  text-align: center;
+  color: #6e7ee4;
+}
+
+h1{
+  font-family: 'Tangerine', cursive;
+  font-size: 100px;
+  text-align: center;
+  color: #6e7ee4;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .container {
   display: grid;
   width: 100%;
@@ -17,7 +33,7 @@ h3{
   grid-template-rows: 100%;
   align-items: center;
   justify-items: center;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 
 #mybook {
@@ -116,4 +132,10 @@ i {
   /* clip informático */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#map{
+  margin: 5% 5%;
+  height: 500px;
+  width: 90%;
 }
